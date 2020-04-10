@@ -222,7 +222,7 @@
 }
 
 .feynman__background-image {
-    background-image: url("/web_project_1/images/feynman.png");
+    background-image: url("../images/feynman.png");
     background-repeat: no-repeat;
     background-position: left bottom;
     shape-image-threshold: 867px 627px;
@@ -339,7 +339,7 @@
 }
 
 .logo_place_footer {
-    background-image: url(/web_project_1/image/logo_place_footer.png);
+    background-image: url(../image/logo_place_footer.png);
     width: 183px;
     height: 35px;
     position: absolute;

@@ -307,10 +307,20 @@
 .footer {
     min-height: 350px;
     background-color: #000;
+    margin: auto;
     display: flex; 
-    justify-content: center;
-    padding: 60px 0 40px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 60px auto 40px; 
     box-sizing: border-box;
+}
+
+.footer__columns {
+    display: flex;
+    justify-content: space-between;
+    min-width: 90%;
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
 
 .logo_place_footer {
@@ -319,16 +329,6 @@
     background-size: contain;
     width: 183px; 
     height: 35px;
-}
-
-.footer__columns {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin-top: 60px;
-    margin-bottom: 40px;
-    margin: 0;
-    padding 0;
 }
 
 .footer__column {
@@ -343,20 +343,21 @@
     
 }
 
-/*.footer__column_content_info {
+.footer__column_content_info {
+    margin: 0
+    padding: 0;
+}
 
-}*/
-
-/*.footer__column_content_social {
-
-}*/
+.footer__column_content_social {
+    margin: 0
+    padding: 0; 
+}
 
 .footer__author {
     line-height: 25px;
     font-size: 18px;
     font-weight: normal;
-    margin-top: 18px;
-    margin-bottom: 18px;
+    margin-top: 18px auto 18px;
     
 }
 
@@ -364,17 +365,17 @@
     line-height: 45px;
     font-size: 18px;
     font-weight: bold;
-    margin-top: 0;
     margin-bottom: 20px;
 }
 
 .footer__column-links {
+    padding: 0;
+    margin: 0;
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
     list-style:none;
-    margin: 0;
-    padding 0;
+    color: #F2F2F2;
 }
 
 .footer__column-link {

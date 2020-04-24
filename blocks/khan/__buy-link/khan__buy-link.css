@@ -1,0 +1,21 @@
+.khan__buy-link {
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+    color: #2F80ED;
+    text-decoration: none; /*feynman*/
+    text-align: center; /*feynman subtitle*/
+    position: absolute; /*feynman*/
+    right: 48px;
+    top: 0;
+    opacity: 3;
+    
+    
+    
+
+}
+
+.khan__buy-link:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease;  
+}

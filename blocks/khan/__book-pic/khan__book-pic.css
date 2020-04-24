@@ -1,0 +1,9 @@
+.khan__book-pic {
+    width: 620px;
+    height: 608px;
+    overflow: hidden;
+    /*margin-bottom: -210px; /*does negative get the color?*/
+    object-fit:cover;
+    object-position: top;
+    
+}

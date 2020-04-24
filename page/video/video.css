@@ -1,0 +1,24 @@
+/* Ted Talks */
+.video {
+    display: flex; /*footer*/
+    justify-content: space-between; /*footer*/ 
+    flex-direction: column; /*footer*/
+    background-color: #F2F2F2;
+    background-position: bottom; /*not sure*/
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: -50px; /*does negative get the color*/
+}
+/* section-title*/
+/* section-subtitle*/
+
+.video__iframes {
+    width: 515px;
+    height: 316px;
+    margin: 50px auto;
+
+}
+
+.video__iframe {
+    
+}

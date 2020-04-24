@@ -1,0 +1,22 @@
+/* Useful Resources */
+.resources {
+    
+}
+
+/*be sure to add the links*/
+
+/* section-title */
+/* section-subtitle */
+
+.resources__logo-zone {
+    max-width: 1100px;
+    margin: 80px auto 217px auto;
+    justify-content: center;
+}
+
+.resources__logo {
+    width: 270px;
+    height: 38px;
+    justify-content: center;
+}
+

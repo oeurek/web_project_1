@@ -1,0 +1,22 @@
+/* Kaufman */
+.kaufman {
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1f1f1f;
+    overflow: hidden;
+}
+
+.kaufman__triangle {
+    background-image: url(../images/kaufman-triangle.svg);
+    background-repeat: no-repeat;
+    width: 877px;
+    height: 877px;
+    position: absolute;
+    right: -210px;
+    top: 0;
+    z-index: 0;
+}

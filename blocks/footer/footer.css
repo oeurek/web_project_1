@@ -6,7 +6,8 @@
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-top: 60px auto 40px; 
+    padding-top: 60px;
+    padding-bottom: 40px; 
     box-sizing: border-box;
 }
 

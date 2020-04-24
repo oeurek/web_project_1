@@ -4,5 +4,5 @@
     display: flex; /*table*/
     list-style: none; /*table*/
     justify-content: flex-start;
-    max-width: 1020px
-
+    width: 1020px;
+}

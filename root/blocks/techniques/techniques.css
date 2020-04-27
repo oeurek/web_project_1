@@ -1,0 +1,10 @@
+/* Techniques */
+/* section-title */
+/* section-subtitle */
+
+.techniques {
+    display: flex; /*digits*/
+    align-items: center;
+    flex-direction: column; /*digits*/
+    margin: 100px auto;
+}

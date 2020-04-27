@@ -1,0 +1,9 @@
+/* Ted Talks */
+.video {
+    display: flex; /*footer*/
+    flex-direction: column; /*footer*/
+   /*padding-bottom: 100px;*/
+    margin-bottom: -60px; /*does negative get the color?*/
+}
+/* section-title*/
+/* section-subtitle*/

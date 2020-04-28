@@ -7,7 +7,7 @@
 .cards {
     /*need to make 3 on row 1*/
     flex-wrap: wrap; /*table*/
-    display: flex; /*table*/
+    display: flex; /*table*/    
     list-style: none; /*table*/
     width: 920px;
     margin: 0 auto;

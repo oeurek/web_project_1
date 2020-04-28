@@ -5,14 +5,12 @@
     color: #2F80ED;
     text-decoration: none; /*feynman*/
     opacity: 3;
-    position: absolute;
-    margin-left: 48px;
-    margin-top: 0;
+
     
     
 }
 
 .khan__buy-link:hover {
     opacity: 0;
-    transition: opacity 0.3s ease;  
+    transition: opacity .3s ease;  
 }

@@ -1,13 +1,15 @@
-@import url("cards/__description/cards__description.css");
-@import url("cards/__image/cards__image.css");
-@import url("cards/__item/cards__item.css");
-@import url("cards/__title/cards__title.css");
+@import url("__description/cards__description.css");
+@import url("__image/cards__image.css");
+@import url("__item/cards__item.css");
+@import url("__title/cards__title.css");
+
 
 .cards {
     /*need to make 3 on row 1*/
     flex-wrap: wrap; /*table*/
     display: flex; /*table*/
     list-style: none; /*table*/
-    justify-content: flex-start;
-    width: 1020px;
+    width: 920px;
+    margin: 0 auto;
+    padding: 0;
 }

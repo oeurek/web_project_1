@@ -1,5 +1,5 @@
-@import url("video/__iframe/video__iframe.css");
-@import url("video/__iframes/video__iframes.css");
+@import url("__iframe/video__iframe.css");
+@import url("__iframes/video__iframes.css");
 
 /* Ted Talks */
 .video {

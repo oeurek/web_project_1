@@ -1,14 +1,13 @@
-@import url("table/__cell/_theme/table__cell_theme_dark.css");
-@import url("table/__heading/_theme/table__heading_theme_dark.css");
-@import url("table/__text/_theme/table__text_theme_dark.css");
-@import url("table/_theme_dark/table_theme_dark.css");
+
 
 .table_theme_dark {
     max-width: 1100px;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto 90px;
+    margin: 0 auto;
     padding: 0;
+    position: relative;
+    z-index: 1;
     list-style: none;
 }
